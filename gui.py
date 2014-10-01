@@ -82,6 +82,7 @@ class gui(object):
 		self.radio_buttons = []
 		self.sliders = []
 		self.fig = plt.figure()
+		self.fig.canvas.set_window_title('Syndrome and Chase3 Decoding')
 		self.ax = plt.axes([0.2,0.2,0.8,0.8])
 		
 

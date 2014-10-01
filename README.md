@@ -5,8 +5,8 @@ Demonstrator of Syndrome decoding and Chase3 decoding on noisy BPSK/QPSK signals
 
 Choose between (5,2,3) and (7,4,3) Hamming code to encode ascii input values. Add random noise to the modulated channel values to simulate errors. See how Syndrome decoding and Chase3 decoding can or cannot correct the errors. 
 
-library dependecies
-===================
+library dependencies
+====================
 
 - numpy
 - matplotlib
@@ -15,5 +15,6 @@ library dependecies
 Screenshots
 ===========
 
-![Screenshot](/screenshots/gui.png?raw=true "Screenshot of the demonstrator")
-![Screenshot](/screenshots/terminal.png?raw=true "")
+![Screenshot](/screenshots/gui.png?raw=true "GUI in 'selected symbol mode'")
+![Screenshot](/screenshots/terminal.png?raw=true "Terminal for input and output data")
+![Screenshot](/screenshots/gui2.png?raw=true "QPSK encoded values")
