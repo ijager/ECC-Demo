@@ -71,7 +71,7 @@ def calculate_colors():
 	two = (0,1,0,1)
 	three = (1,0,1,1)
 	four = (0,0,1,1)
-	black = (0.5,0.5,0.5,0.1)
+	black = (0.5,0.5,0.5,0.05)
 	colors = []
 	for i,symbol in enumerate(modulated):
 		if not (selected == None) and not (i == index):
@@ -144,7 +144,7 @@ def decode_all():
 	x = []
 	for index in range(len(modulated)):
 		x.append(decode_symbol())
-	print('corrected codeword:\n', code.get_ascii(x))
+	print('Output text:\n', code.get_ascii(x))
 	index = -1
 
 def decode_now(event):
